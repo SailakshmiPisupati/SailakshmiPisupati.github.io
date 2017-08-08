@@ -114,30 +114,32 @@ a.boxclose{
 /*--/header--*/
 /*--banner--*/
 .banner{
-	background: url(../images/banner_blue.png) no-repeat 0px 0px;
+	background: url(../images/background_image.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
-	min-height:750px;
+	min-height:450px;
 }
 .banner-info{
 width:65%;
 margin: 50px auto 0 auto;
 }
 .banner-right h1{
-font-size:34px;
+font-size:45px;
 font-weight:800;
 color:#ffffff;
 margin:35px 0 15px 0;
-letter-spacing: 15px;
+letter-spacing: 10px;
+font-family: "Lato";
 }
 .banner-right h2{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
   color: #ffffff;
   margin: 15px 0 45px 0;
+  font-family: "Lato"
 }
 .banner-right a{
 text-decoration:none;
@@ -157,8 +159,8 @@ float:left;
 float:right;
 }
 .border {
-  background: #d79d9d;
-  width: 70%;
+  background: #ffffff;
+  width: 100%;
   margin: 0 auto;
   padding: 1px;
 }
